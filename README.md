@@ -6,6 +6,6 @@ pyautowork是基于flask + bootstrap编写的运维管理平台。这个项目�
 ![](https://github.com/qwsddn/pyautowork/blob/master/raw/vm.jpg)<br>
 
 
-<br>版本历程
-2018.10.7,pyautowork 1.0发布，有用户管理、vpn和vmware vsphere虚机管理功能。
+<br>版本历程<br>
+2018.10.7,pyautowork 1.0发布，有用户管理、vpn和vmware vsphere虚机管理功能。<br>
 
