@@ -58,8 +58,8 @@ def  vpnadd():
             #expire_date = create_date + datetime.timedelta(days = 365)
             #create_date = create_date.strftime('%Y-%m-%d')
             #expire_date = expire_date.strftime('%Y-%m-%d')
-            create_date = None
-            expire_date = None
+            create_date = "1900-01-01"
+            expire_date = "1900-01-01"
             field  = ["name","term","used","create_date","expire_date","owner","status"]
             data= {k:v[0] for k,v in dict(request.form).items()}
             data.update(create_date=create_date,expire_date=expire_date,owner=owner,status=status)
@@ -90,8 +90,8 @@ def  vpnadd1():
 #添加vpn
     if request.method=='POST':
         status = 0
-        create_date = None
-        expire_date = None
+        create_date = "1900-01-01"
+        expire_date = "1900-01-01"
         field  = ["name","term","used","create_date","expire_date","owner","status"]
         data= {k:v[0] for k,v in dict(request.form).items()}
         data.update(create_date=create_date,expire_date=expire_date,status=status)

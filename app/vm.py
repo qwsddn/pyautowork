@@ -50,8 +50,8 @@ def  vmadd():
         if msg['role'] != 0 and msg['role'] != 1:
             owner = msg['username']
             status = 0
-            create_date = None
-            expire_date = None
+            create_date = "1900-01-01"
+            expire_date = "1900-01-01"
             #form_result数据样例{'project': u'1', 'term': u'1', 'used': u'22222222222', 'resource': u'2', 'system': u'os6'}
             form_result = request.form.to_dict()
             data = vmappend(form_result)
@@ -83,8 +83,8 @@ def  vmadd1():
 #添加vm
     if request.method=='POST':
         status = 0
-        create_date = None
-        expire_date = None
+        create_date = "1900-01-01"
+        expire_date = "1900-01-01"
         form_result = request.form.to_dict()
         data = vmappend(form_result)
         field  = ["hostname","system","term","cpu","mem","disk","project","used","ip","mask","gateway","create_date","expire_date","owner","status"]
