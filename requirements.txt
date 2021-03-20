@@ -12,7 +12,7 @@ gunicorn==19.7.1
 idna==2.6
 ipaddress==1.0.18
 itsdangerous==0.24
-Jinja2==2.9.6
+Jinja2==2.11.3
 MarkupSafe==1.0
 meld3==1.0.2
 MySQL-python==1.2.5
